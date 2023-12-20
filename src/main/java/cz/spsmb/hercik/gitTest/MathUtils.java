@@ -6,7 +6,7 @@ public class MathUtils {
      * @param number
      * @return
      */
-     static int secondPower(int number) {
-        return number * number;
+     static double secondPower(double number) {
+        return Math.pow(number, 2);
     }
 }
